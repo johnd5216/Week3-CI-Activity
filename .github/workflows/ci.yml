@@ -1,12 +1,12 @@
-name: My Workflow
+name: Continuous Integration
 on:
   commit: 
-    - main
+    - luke_branch
   pull: 
-    - main
+    - luke_branch
   push:
     branches:
-      - main
+      - luke_branch
 jobs:
   hello:
 
