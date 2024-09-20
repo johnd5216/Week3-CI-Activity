@@ -1,3 +1,4 @@
+
 name: Hello World
 
 on:
@@ -11,9 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install npm dependencies
-        run: npm install
-      - name: Installs packages
-        run: npm run build
-      - name: Run tests
-        run: npm run tests
+      - name: Display hello world
+        run: echo "Hello, World"

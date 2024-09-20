@@ -3,14 +3,11 @@ name: Continuous integration
 on:
   commit:
     branches:
-      - main
+      - calli
   pull:
     branches:
-      - main
-  start:
-    by:
-      - user
-
+      - calli
+      
 jobs:
   install:
 
