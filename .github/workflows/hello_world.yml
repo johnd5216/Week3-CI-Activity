@@ -1,14 +1,14 @@
 name: Hello World
 
 on:
-	push:
-		branches:
-			- main
+ push:
+  branches:
+   - main
 
 jobs:
-	hello:
+ hello:
 
-		runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
 		steps:
 			- name: Display hello world
