@@ -1,16 +1,21 @@
-name: Hello World
+name: Continuous integration
 
 on:
-  push:
+  commit:
     branches:
-      - calli
+      - main
+  pull:
+    branches:
+      - main
+  start:
+    by:
+      - user
 
 jobs:
-  hello:
+  install:
 
     runs-on: ubuntu-latest
 
-    steps:
       - name: Install npm dependencies
         run: npm install
       - name: Installs packages
