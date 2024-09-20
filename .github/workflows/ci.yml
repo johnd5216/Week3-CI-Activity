@@ -1,9 +1,11 @@
 name: Continuous Integration
 on:
   commit: 
-    - luke_branch
+    branches:
+      - luke_branch
   pull: 
-    - luke_branch
+    branches:
+      - luke_branch
   push:
     branches:
       - luke_branch
