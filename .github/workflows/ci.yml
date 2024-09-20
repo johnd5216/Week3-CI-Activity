@@ -1,8 +1,5 @@
 name: Continuous Integration
 on:
-  commit: 
-    branches:
-      - luke_branch
   pull_request: 
     branches:
       - luke_branch
